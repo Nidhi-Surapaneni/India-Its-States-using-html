@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+<style id="jsbin-css">
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:17px;
+
+    background: #c68c53 url('tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+    font-family: cursive;
+
+
+
+}
+
+p.para{
+   line-height: 1.2;
+   padding-right: 20px;
+padding-left: 20px;
+   background: rgba(242, 242, 242, 0.1);
+   padding: 10px;
+   border-radius: 10px;
+   text-align: center;
+}
+p.para:hover{ background: rgba(242, 242, 242, 0.2);}
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+}
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+.heading{text-align: center;
+  font-family: cursive;
+  padding: 10px;
+}
+.employee{
+  background: rgba(26, 255, 26, 0.2);
+  border-radius: 10px;
+}
+.employee:hover{background: rgba(179, 255, 179,0.3);}
+.employeePic{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+
+}
+.employeeName{
+  margin-left: 330px;
+  margin-top: -200px;
+  font-size: 40px;
+}
+
+.button {
+    background-color: rgba(179, 255, 179,0.3);
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 470px;
+    margin-top:100px;
+    border-radius: 4px;
+}
+.button:hover{
+  background-color: lightgreen;
+}
+button {
+  left :100px;
+  margin-left:650px;
+}
+</style>
+</head>
+<body>
+<p id="text"></p>
+<h1 class="heading"> About us</h1>
+<p class="para">THANKYOU ALL!! for visiting us ,
+  our main idea was to present india in a incredible way and it was our best attempt to do it hope that you liked it. So, now we would like to ,
+      let you guys know about us a bit , we are yet students trying to learn more n more so ,
+    this was out first attempt to do this.<br>
+
+we wanted <br>
+we have used most of the basics like html css html5 & css3. <br>it consists of the welcome indian states  and   the slide shows<br>  we have tried to give a brief discription on each pages which is helpful<br> hope you liked the page <br>
+
+your comments are always welocome. <br>and any suugestions are welcome please leave a suggetion on our comment page.
+<h1 class="heading" > WHO WORKED ON IT</h1>
+<div class="employee">
+<img class="employeePic" src="IMG-20170903-WA0005.jpg">
+<h1 class="employeeName"> &nbsp;</h1>
+<h1 style="margin-left:230px;margin-top:-13px;font-size:20px;">NAME &nbsp&nbsp; : &nbsp;SIRI</h1>
+<h1 style="margin-left:230px;margin-top:-13px;font-size:20px;">NAME &nbsp&nbsp; : &nbsp;SONAM</h1>
+<h1 style="margin-left:230px;margin-top:-13px;font-size:20px;">NAME &nbsp&nbsp; : &nbsp;NIDHI</h1>
+
+<!--button class="accordion">show more +</button-->
+<div class="panel">
+  <p> </p>
+</div>
+</div>
+<br><br><br><br>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        //this.classList.toggle("inactive");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "none") {
+            panel.style.display = "block";
+
+        } else {
+            panel.style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>
