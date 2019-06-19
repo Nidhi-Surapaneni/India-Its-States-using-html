@@ -20,7 +20,8 @@ project
  
 please change the **href** in map1.html to the directory where your states(state.html) file present
 
-**log.html** is the main page so connect everything to that and tour final project is ready
+**log.html** is the main page so connect everything to that and your final project is ready
+
 
 you can add or delete pictures in the html file as per your requirements and please do make changes in the specified html page
 
