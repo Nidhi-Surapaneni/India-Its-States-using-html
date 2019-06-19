@@ -5,12 +5,11 @@
 project
 ```
  login page
- india intro
- india map
- states
- main page
- comments 
- about us 
+ india intro page
+ india map page
+ states main page
+ comments page
+ about us page
  ```
  
 please change the **href** in map1.html to the directory where your states(state.html) file present
