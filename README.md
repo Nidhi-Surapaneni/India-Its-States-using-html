@@ -40,7 +40,7 @@ used most of the basics like html css html5 & css3.
 
 _couldn't able to upload all pictures as we cannot upload more then 100_
 
-This project is a  part of semester final exam Special thanks to groupmates\
+This project is a  part of semester final exam Special thanks to my groupmates\
 *SONAM RATHOD* \
 *SIRI BHASKAR HEDGE*
 
